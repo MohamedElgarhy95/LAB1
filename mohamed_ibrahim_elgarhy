@@ -1,0 +1,15 @@
+1-sudo yum install git-all
+2-git config --global user.name MohammedAttia9
+3-git config --global user.email mohammedelgarhy95@gmail.com
+4-git config --global core.editor vi
+5-ssh-keygen -t rsa -b 4096 -C "mohammedelgarhy95@gmail.com"
+6-cat /home/mohamed/.ssh/id_rsa.pub
+7-mkdir cloud
+8-cd cloud
+9-git init 
+10-git remote add origin git@github.com:MohammedAttia95/LAB1.git
+11-touch mohamed_ibrahim_elgarhy
+12-vi mohamed_ibrahim_elgarhy
+13-git add .
+14-git commit 
+15-git push origin main
